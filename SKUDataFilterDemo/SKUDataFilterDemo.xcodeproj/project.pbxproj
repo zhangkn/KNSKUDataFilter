@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0484E92A223B87DB00127BB2 /* SKUDataFilter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0484E928223B87DB00127BB2 /* SKUDataFilter.podspec */; };
+		0484E92B223B87DB00127BB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0484E929223B87DB00127BB2 /* README.md */; };
 		4D322A8B1FD817C900EE24D9 /* UICollectionViewFlowLayout+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D322A7A1FD817C900EE24D9 /* UICollectionViewFlowLayout+ORIBProperty.m */; };
 		4D322A8C1FD817C900EE24D9 /* UILabel+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D322A801FD817C900EE24D9 /* UILabel+ORIBProperty.m */; };
 		4D322A8D1FD817C900EE24D9 /* UITextField+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D322A831FD817C900EE24D9 /* UITextField+ORIBProperty.m */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0484E928223B87DB00127BB2 /* SKUDataFilter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SKUDataFilter.podspec; path = ../../../SKUDataFilter.podspec; sourceTree = "<group>"; };
+		0484E929223B87DB00127BB2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 		4D322A791FD817C900EE24D9 /* UITextField+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ORIBProperty.h"; sourceTree = "<group>"; };
 		4D322A7A1FD817C900EE24D9 /* UICollectionViewFlowLayout+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewFlowLayout+ORIBProperty.m"; sourceTree = "<group>"; };
 		4D322A7B1FD817C900EE24D9 /* UILabel+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ORIBProperty.h"; sourceTree = "<group>"; };
@@ -106,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0484E927223B879C00127BB2 /* podspec */ = {
+			isa = PBXGroup;
+			children = (
+				0484E929223B87DB00127BB2 /* README.md */,
+				0484E928223B87DB00127BB2 /* SKUDataFilter.podspec */,
+			);
+			path = podspec;
+			sourceTree = "<group>";
+		};
 		4D322A781FD817C900EE24D9 /* ORIBProperty */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +184,7 @@
 		4DD9431D1FD8113E00BA2396 /* SKUDataFilterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0484E927223B879C00127BB2 /* podspec */,
 				4D38B48C20F116D1006ACEC6 /* SKUDataFilter */,
 				4D322A781FD817C900EE24D9 /* ORIBProperty */,
 				4DD9431E1FD8113E00BA2396 /* AppDelegate.h */,
@@ -310,7 +324,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0484E92A223B87DB00127BB2 /* SKUDataFilter.podspec in Resources */,
 				4DD943571FD811AD00BA2396 /* Main.storyboard in Resources */,
+				0484E92B223B87DB00127BB2 /* README.md in Resources */,
 				4DD9432B1FD8113E00BA2396 /* LaunchScreen.storyboard in Resources */,
 				4DD943281FD8113E00BA2396 /* Assets.xcassets in Resources */,
 			);
