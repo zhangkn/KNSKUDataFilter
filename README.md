@@ -1,27 +1,13 @@
 # SKUFilterManager
-SKU 商品规格组合算法 
-
-![003.gif](http://upload-images.jianshu.io/upload_images/5192751-68d22cd9e80f8e08.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-[博客详解SKU算法](http://www.jianshu.com/p/295737e2ac77)
-  
+SKU 商品规格组合算法   
   
  
 
 ## 更新日志
 
-##### 2018.07.11 ~ cocoapods version 1.0.1
-- 支持cocopods 导入  
+##### 2019.03.15 ~ cocoapods version 1.0.2
 
-      pod 'SKUDataFilter'
-- 升级数据防崩溃过滤，即使sku-condition完全对不上号，也不会闪退了。（针对某些极端测试人员）
-
-##### 2018.06.21  -  
-- 最近收到很多因为部分sku信息不完整，导致崩溃的反馈。所以新增了sku-condition的检测，过滤并提示了不完整的condition。已更新
-
-##### 2017.12.16  -  
-- 由于之前的疏忽，在更新算法的时候，漏了一个点，导致一个非常严重的bug，感谢简书网友[@毕小强](http://www.jianshu.com/u/1d1454c9bb0b) 指出，已更新
+      pod 'KNSKUDataFilter'
 
 ## 正文  
 
@@ -100,3 +86,8 @@ SKUDataFilter最终直接反映的是属性的indexPath, 如果你的属性在UI
 
 实际项目中，这两种情况发生的概率都非常小，因为 第一数据统一返回统一解析，格式99%都是一样。第二数据是从服务器返回，服务器的数据要进行筛选和过滤，顺序也不能弄错，一旦错误，首先服务器就会出问题
 # KNSKUDataFilter
+
+```
+git tag -a 1.0.2 -m "1.0.2"
+git push origin --tags     
+```
