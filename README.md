@@ -87,7 +87,10 @@ SKUDataFilter最终直接反映的是属性的indexPath, 如果你的属性在UI
 实际项目中，这两种情况发生的概率都非常小，因为 第一数据统一返回统一解析，格式99%都是一样。第二数据是从服务器返回，服务器的数据要进行筛选和过滤，顺序也不能弄错，一旦错误，首先服务器就会出问题
 # KNSKUDataFilter
 
+#### pod command
 ```
-git tag -a 1.0.2 -m "1.0.2"
+git tag -a 1.0.3 -m "1.0.3"
 git push origin --tags     
+pod lib lint  KNSKUDataFilter.podspec --allow-warnings
+pod trunk push   KNSKUDataFilter.podspec --allow-warnings
 ```
